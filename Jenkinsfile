@@ -1,17 +1,17 @@
 pipeline{
     agent none
     stages{
-        stage('Prepare'){
+        stage('Be'){
             steps{
                 echo 'jol'
             }
         }
-        stage('Prepare2'){
+        stage('Or'){
             steps{
                 echo 'jol'
             }
         }
-        stage('Prepare3'){
+        stage('Not'){
             steps{
                 echo 'jol'
             }
