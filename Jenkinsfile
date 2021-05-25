@@ -26,7 +26,7 @@ pipeline{
         }
         stage('be2'){
             steps{
-                echo 'jol'
+                echo 'any'
             }
         }
     }
