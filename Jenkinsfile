@@ -6,5 +6,15 @@ pipeline{
                 echo 'jol'
             }
         }
+        stage('Prepare2'){
+            steps{
+                echo 'jol'
+            }
+        }
+        stage('Prepare3'){
+            steps{
+                echo 'jol'
+            }
+        }
     }
 }
