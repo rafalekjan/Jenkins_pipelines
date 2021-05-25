@@ -1,7 +1,7 @@
 pipeline{
     agent none
     stages{
-        stage('Be'){
+        stage('aaaaaBe'){
             steps{
                 echo 'jol'
             }
