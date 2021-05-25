@@ -1,8 +1,9 @@
 pipeline{
-    steges{
-        stage{
-            step{
-                echo ''
+    agent none
+    stages{
+        stage('Prepare'){
+            steps{
+                echo 'jol'
             }
         }
     }
