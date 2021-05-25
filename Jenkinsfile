@@ -1,7 +1,7 @@
 pipeline{
     agent any
     triggers{
-        cron('H/1 * * * *')
+        cron('* * * * *')
     }
     stages{
         stage('aaa23aaBe'){
@@ -24,7 +24,7 @@ pipeline{
                 echo 'jol'
             }
         }
-        stage('be2'){
+        stage('be123232'){
             steps{
                 echo 'any'
             }
